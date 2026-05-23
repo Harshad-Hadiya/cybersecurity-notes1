@@ -6,7 +6,6 @@ Offensive Security Intro
 ##  Goal
 Learn basic concepts of offensive security and understand how ethical hackers test systems in a safe environment.
 
----
 
 ##  What I Learned
 
@@ -16,7 +15,6 @@ Learn basic concepts of offensive security and understand how ethical hackers te
 - How attackers think and find vulnerabilities
 - Importance of legal and safe hacking environments
 
----
 
 ##  Key Concepts
 
@@ -25,7 +23,6 @@ Learn basic concepts of offensive security and understand how ethical hackers te
 - **Penetration Testing** → Simulated cyber attack on systems
 - **Vulnerability** → Weakness in system security
 
----
 
 ##  Practical Understanding
 
@@ -33,7 +30,6 @@ Learn basic concepts of offensive security and understand how ethical hackers te
 - Understood that hacking without permission is illegal
 - Practiced thinking like an attacker in a controlled environment
 
----
 
 ##  Skills Gained
 
@@ -41,13 +37,11 @@ Learn basic concepts of offensive security and understand how ethical hackers te
 - Understanding attacker perspective
 - Awareness of security testing process
 
----
 
 ##  My Takeaway
 
 This room helped me understand the foundation of ethical hacking and why offensive security is important in real-world cybersecurity.
 
----
 
 ## 📌 Next Step
 

@@ -1,1 +1,19 @@
+# Linux Day 1
 
+## Commands Learned
+
+- pwd
+- ls
+- ls -la
+- whoami
+- cd
+- mkdir
+- touch
+- cat
+- nano
+- rm
+- rmdir
+
+## Practice Completed
+
+Created folders and files, edited files using nano, and deleted files and folders using Linux commands.

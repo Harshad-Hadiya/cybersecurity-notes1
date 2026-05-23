@@ -1,14 +1,14 @@
 # Offensive Security Intro - TryHackMe
 
-## 📌 Room Name
+##  Room Name
 Offensive Security Intro
 
-## 🎯 Goal
+##  Goal
 Learn basic concepts of offensive security and understand how ethical hackers test systems in a safe environment.
 
 ---
 
-## 🧠 What I Learned
+##  What I Learned
 
 - What is Offensive Security
 - Difference between offensive and defensive security
@@ -18,7 +18,7 @@ Learn basic concepts of offensive security and understand how ethical hackers te
 
 ---
 
-## 🔧 Key Concepts
+##  Key Concepts
 
 - **Offensive Security** → Actively finding and exploiting vulnerabilities
 - **Ethical Hacking** → Hacking with permission to improve security
@@ -27,7 +27,7 @@ Learn basic concepts of offensive security and understand how ethical hackers te
 
 ---
 
-## 💻 Practical Understanding
+##  Practical Understanding
 
 - I learned how ethical hackers identify weaknesses in a system
 - Understood that hacking without permission is illegal
@@ -35,7 +35,7 @@ Learn basic concepts of offensive security and understand how ethical hackers te
 
 ---
 
-## 🔥 Skills Gained
+##  Skills Gained
 
 - Basic cybersecurity mindset
 - Understanding attacker perspective
@@ -43,7 +43,7 @@ Learn basic concepts of offensive security and understand how ethical hackers te
 
 ---
 
-## 🚀 My Takeaway
+##  My Takeaway
 
 This room helped me understand the foundation of ethical hacking and why offensive security is important in real-world cybersecurity.
 

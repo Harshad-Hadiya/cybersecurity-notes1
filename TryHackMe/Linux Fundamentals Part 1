@@ -1,1 +1,24 @@
+# Linux Fundamentals Part 1 - TryHackMe
 
+##  Room Name
+Linux Fundamentals Part 1
+
+##  What I Learned
+
+- What Linux is
+- How to navigate directories
+- How to identify the current user
+- How to list files and folders
+- How to access help manuals
+
+## Introduction to Linux
+
+Linux is an open-source operating system widely used in servers, cybersecurity, cloud computing, and penetration testing.
+
+## Navigation Commands
+
+### pwd
+Displays the current working directory.
+
+bash
+pwd

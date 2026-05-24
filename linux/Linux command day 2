@@ -1,1 +1,11 @@
+pwd     = know about current path
+ls      = list about directory
+ls -a   = all directory list included hidden files or folder
+ls -la  = all directory list included hidden files or folder with permissions
+cd      = for chnage the directory
+cd ..   = back to 1 step
+cd ~    = Go to home
+mkdir   = create a new folder
+touch   = create a new file
+cat     = read a file
 

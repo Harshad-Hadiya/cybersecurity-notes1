@@ -1,1 +1,60 @@
+1. What is SOC?
+
+A Security Operations Center (SOC) is a centralized team responsible for monitoring, detecting, analyzing, and responding to cybersecurity incidents in real time.
+
+Main responsibilities:
+Monitoring security events 24/7
+Detecting cyber threats
+Investigating alerts
+Responding to incidents
+Analyzing logs and evidence
+
+2. SOC Analyst Levels
+🔹 Tier 1 (Junior Analyst)
+First line of defense
+Monitor alerts from SIEM tools
+Identify false positives
+Basic incident reporting
+🔹 Tier 2 (Intermediate Analyst)
+Deep investigation of incidents
+Confirm threats
+Analyze logs and evidence
+Escalate serious incidents
+🔹 Tier 3 (Senior Analyst / Threat Hunter)
+Advanced threat hunting
+Malware analysis
+Root cause analysis
+Create detection rules
+
+3. What is SIEM?
+
+SIEM (Security Information and Event Management) is a system used to collect, analyze, and correlate security logs.
+
+Popular SIEM tools:
+Splunk
+IBM QRadar
+Elastic SIEM
+SIEM Functions:
+Log collection
+Event correlation
+Alert generation
+Security reporting
+
+4. What are Logs?
+
+Logs are records of system, network, and user activities.
+
+Types of logs:
+Authentication logs (login/logout attempts)
+System logs
+Application logs
+Network logs
+
+5. Common SOC Alerts
+Multiple failed login attempts
+Suspicious IP activity
+Malware detection
+Unusual data transfer
+Port scanning activity
+
 

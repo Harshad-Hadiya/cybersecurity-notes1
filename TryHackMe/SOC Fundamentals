@@ -57,4 +57,19 @@ Malware detection
 Unusual data transfer
 Port scanning activity
 
+6. Incident Response Lifecycle
+Identification – Detect the incident
+Containment – Stop the attack from spreading
+Eradication – Remove malware/threat
+Recovery – Restore systems to normal
+Lessons Learned – Improve security for future
+
+10. Key Takeaways
+SOC is the core of cybersecurity monitoring
+SIEM is the main tool used in SOC
+Logs are the most important evidence
+Tier 1 is the entry-level SOC role
+
+
+
 

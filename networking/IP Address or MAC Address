@@ -10,15 +10,35 @@
 # 2 versions of IP.
 1.IPV4 
 * Formate: 32-bit, dotted decimal notation
-* Example= 192.68.1.1
+* Example= 192.68.1.1 (0 to 255)range
 * structure breakdown: 4 octets (8 bits each)
 * 192.68.1.1
 
 2.IPV6
 * Formate: 128-bit, hexadecimal notation
-* Example= 2001:0db8::1
+* Example= 2001:0db8::1 ( 1 to 9 & a to f)range
 * structure breakdown: 8 groups (16 bits each)
 * 2001 : 0db8 : 0000 : 0000 : 0000 : 0000 : 0000 : 0001
+
+## Public vs Private IP Addresses
+
+Public IP
+
+Definition: Globally unique address routable on internet
+Example: 8.8.8.8 (Google DNS)
+Use case: Servers, websites, devices accessible from internet
+
+Private IP
+
+Definition: Non-routable address used within private networks
+Example: 192.168.1.100
+Use case: Home networks, corporate LANs, internal devices
+
+Private IP Ranges:
+
+10.0.0.0 to 10.255.255.255 (Class A)
+172.16.0.0 to 172.31.255.255 (Class B)
+192.168.0.0 to 192.168.255.255 (Class C)
 
 2. MAC (Media Access Control) Address
 

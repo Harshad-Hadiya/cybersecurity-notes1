@@ -18,3 +18,12 @@ TYpes Of Networks
 
 1. LAN - Local Area Network
 * Connects devices within limited geographical area like office building or campus
+
+2. WAN – Wide Area Network
+* Spans large distances across cities, countries, or continents connecting multiple LANs.
+
+3. MAN – Metropolitan Area Network
+* Covers city or large town area, larger than LAN but smaller than WAN.
+
+4. PAN – Personal Area Network
+* Connects devices within personal workspace like smartphone, laptop, and peripherals.

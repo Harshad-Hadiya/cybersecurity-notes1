@@ -1,1 +1,25 @@
+1. Router
+* Forwards packets between different networks using IP addresses. 
+* Helps to connect multiple LAN.
 
+
+2. Switch
+* Connects devices on same network using MAC addresses.
+* Data transfer using MAC ADD.
+
+3. Hub
+* Broadcasts data to all connected devices (obsolete technology).
+* Brodcast data to all device.
+* Not smart device.
+* Not use today's genration.
+
+
+4. Firewall
+* Filters traffic based on security rules blocking unauthorized access.
+* protect Device/system.
+
+5. Modem
+* Converts digital signals to analogue for internet connectivity.
+
+6. Access Point
+* Provides wireless network connectivity to devices.

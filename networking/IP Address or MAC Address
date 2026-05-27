@@ -1,1 +1,28 @@
+1. IP (Internet protocol) Address
 
+* Defination = Logical address assigned by network.
+* Changes when device moves networks
+* Assigned by network administrator or DHCP
+* Used for routing across networks
+* Uniqe address 
+* Help to identify device
+
+# 2 versions of IP.
+1.IPV4 
+* Formate: 32-bit, dotted decimal notation
+* Example= 192.68.1.1
+* structure breakdown: 4 octets (8 bits each)
+* 192.68.1.1
+
+2.IPV6
+* Formate: 128-bit, hexadecimal notation
+* Example= 2001:0db8::1
+* structure breakdown: 8 groups (16 bits each)
+* 2001 : 0db8 : 0000 : 0000 : 0000 : 0000 : 0000 : 0001
+
+2. MAC (Media Access Control) Address
+
+* Defination = Physical address burned into hardware
+* Permanent and unique to device
+* Never changes
+* Used for local network communication

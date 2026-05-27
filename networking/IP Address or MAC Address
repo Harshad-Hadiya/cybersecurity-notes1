@@ -40,6 +40,24 @@ Private IP Ranges:
 172.16.0.0 to 172.31.255.255 (Class B)
 192.168.0.0 to 192.168.255.255 (Class C)
 
+Static IP vs Dynamic IP Addresses
+
+Static IP
+
+Definition: A fixed IP address that does not change over time
+Assigned by: Manually FIX configured or provided by ISP
+Example: 203.0.113.10
+Use case: Web servers, mail servers, remote access, VPN
+Does Not change
+
+Dynamic IP
+
+Definition: An IP address that changes automatically over time
+Assigned by: DHCP (Dynamic Host Configuration Protocol) server
+Example: 192.168.1.5 → may change later to 192.168.1.20
+Use case: Home users, mobile networks, general internet browsing
+chnage when reconnecting
+
 2. MAC (Media Access Control) Address
 
 * Defination = Physical address burned into hardware

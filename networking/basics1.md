@@ -13,3 +13,8 @@ Attacks via Network
 
 4. Firewall Evasion
 --> ByPass security controls by manipulating packet headers and understanding filtering mechanisms
+
+TYpes Of Networks
+
+1. LAN - Local Area Network
+* Connects devices within limited geographical area like office building or campus

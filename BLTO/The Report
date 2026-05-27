@@ -1,1 +1,17 @@
 
+Headline: Another lab down! Just wrapped up BTLO's "The Report" investigation.
+
+This challenge drops you into a newly established SOC tasked with turning a massive 2022 Threat Detection Report into actionable security rules.
+
+Quick hits on what I focused on:
+
+MITRE T1059 (Command & Scripting): Seen in over 50% of environments. 
+It highlights why understanding baseline administrative behavior is crucial for catching Living off the Land tactics.
+
+Malicious Scripting: Why detection engineering rules need to flag wscript.exe executing untrusted scripts rather than just watching standard command prompts.
+
+The Affiliate Model: Tracking how initial access brokers use precursors like Qbot and BazarLoader to pave the way for ransomware groups like Conti.
+
+Continuous skill-sharpening is everything in defense. On to the next challenge! 
+
+#Cybersecurity #Infosec #BlueTeam #ThreatHunting #SecurityBlueTeam

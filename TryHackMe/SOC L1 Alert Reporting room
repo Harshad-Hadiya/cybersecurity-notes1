@@ -1,1 +1,60 @@
+# SOC L1 - Alert Reporting 
 
+Alert = Security tool taraf thi suspicious activity mate generate thayeli warning.
+
+Common Alert Sources:
+SIEM, IDS/IPS, EDR, Firewall, Antivirus
+
+Severity Levels:
+Critical = Immediate action required
+High = Serious threat
+Medium = Suspicious activity
+Low = Minor issue
+Informational = Monitoring only
+
+Alert Triage Process:
+1. Review Alert
+2. Validate Alert
+3. Investigate Logs
+4. Determine Impact
+5. Escalate if needed
+
+Important Alert Fields:
+Timestamp, Source IP, Destination IP, Username, Event ID, Severity
+
+False Positive = Benign activity detected as malicious
+True Positive = Real malicious activity detected
+
+IOC (Indicators of Compromise):
+Malicious IPs, Suspicious Domains, File Hashes, Unknown Processes, Failed Login Attempts
+
+MITRE ATT&CK Examples:
+T1059 = Command and Scripting Interpreter
+T1110 = Brute Force
+
+Incident Reporting Template:
+Incident Title
+Severity
+Date & Time
+Affected Host
+User
+Description
+Investigation
+Action Taken
+Status
+
+SOC L1 Responsibilities:
+Monitor Alerts
+Analyze Logs
+Validate Threats
+Create Reports
+Escalate Incidents
+
+Best Practices:
+Verify alerts properly
+Maintain documentation
+Reduce false positives
+Follow escalation procedures
+Maintain investigation timeline
+
+#SOC #SOCAnalyst #TryHackMe #BlueTeam #CyberSecurity #SIEM #IncidentResponse #AlertReporting #SOCLevel1

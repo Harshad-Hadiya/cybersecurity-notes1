@@ -20,3 +20,28 @@ UDP = Fast, connectionless, best-effort
 TCP = Web/File Transfer
 UDP = Gaming/Streaming/DNS
 
+
+* Common TCP Flags
+
+TCP flags control the state and behavior of communication.
+
+SYN
+Initiates a new connection (synchronization)
+
+ACK
+Acknowledges receipt of data or packets
+
+FIN
+Gracefully closes a connection
+
+RST
+Forces an immediate connection reset
+
+PSH
+Pushes data immediately without buffering
+
+URG
+Marks data as urgent and high priority
+
+Note:
+Used in Nmap scans, port scanning, firewall evasion, and TCP manipulation attacks.

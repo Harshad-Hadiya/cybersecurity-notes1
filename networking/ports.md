@@ -46,3 +46,45 @@ Content-Type
 X-Frame-Options
 Access-Control-Allow-Origin (CORS)
 Cache-Control
+
+## HTTP Status Codes
+
+Status codes tell you what happened with your request.
+
+| Code Range | Meaning       | Examples                                                            |
+| ---------- | ------------- | ------------------------------------------------------------------- |
+| 1xx        | Informational | 100 Continue, 101 Switching Protocols                               |
+| 2xx        | Success       | 200 OK, 201 Created, 204 No Content                                 |
+| 3xx        | Redirection   | 301 Moved Permanently, 302 Found, 304 Not Modified                  |
+| 4xx        | Client Error  | 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found     |
+| 5xx        | Server Error  | 500 Internal Server Error, 502 Bad Gateway, 503 Service Unavailable |
+
+
+Key Status Codes Breakdown
+200 OK
+Request succeeded
+
+201 Created
+Resource created successfully
+
+301/302
+Redirect to new 
+
+400 Bad Request
+Malformed request
+
+401 Unauthorized
+Authentication required
+
+403 Forbidden
+Access denied (found but blocked)
+
+404 Not Found
+Resource doesn't exist
+
+500 Internal Server Error
+Server misconfiguration/crash
+
+503 Service Unavailable
+Server overloaded
+

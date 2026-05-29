@@ -1,1 +1,22 @@
+TCP..> Transmission Control Protocol
+UDP..> User Datagram Protocol
+
+
+| Feature        | TCP                       | UDP                    |
+| -------------- | ------------------------- | ---------------------- |
+| Connection     | Connection-oriented       | Connectionless         |
+| Speed          | Slower (reliable)         | Faster (no overhead)   |
+| Reliability    | Guaranteed delivery       | No guarantee           |
+| Error Checking | Yes, extensive            | Minimal                |
+| Ordering       | Maintains packet order    | No ordering            |
+| Use Case       | Web, Email, File Transfer | Gaming, Streaming, DNS |
+
+Key Differences:
+
+TCP = Reliable, ordered, connection-based
+
+UDP = Fast, connectionless, best-effort
+
+TCP = Web/File Transfer
+UDP = Gaming/Streaming/DNS
 

@@ -1,4 +1,4 @@
-pwd     = know about current path
+pwd     = Find to current path
 ls      = list about directory
 ls -a   = all directory list included hidden files or folder
 ls -la  = all directory list included hidden files or folder with permissions

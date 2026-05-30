@@ -8,4 +8,9 @@ cd ~    = Go to home
 mkdir   = create a new folder
 touch   = create a new file
 cat     = read a file
+rm      = delete file/folder
+mv      = move/rename file/folder 
+cp      = copy file
+grep    = find specific word in the file
+echo    = write in the file
 

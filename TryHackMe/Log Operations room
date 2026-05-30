@@ -3,7 +3,7 @@
 ## Overview
 This room focuses on log management, log analysis, and understanding how logs are generated, stored, and investigated in Linux/Windows systems. It is important for SOC analysts and blue team roles.
 
-## 🧠 Key Learning Areas
+## Key Learning Areas
 - What are system logs
 - Log types and levels
 - Linux log locations
@@ -33,7 +33,7 @@ They help in:
 | INFO | General information |
 | DEBUG | Debugging details |
 
-## 🐧 Linux Log Locations
+## Linux Log Locations
 Important log files:
 
 ```bash

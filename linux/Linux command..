@@ -13,4 +13,33 @@ mv      = move/rename file/folder
 cp      = copy file
 grep    = find specific word in the file
 echo    = write in the file
+whoami  = view the current user
+sudo su = admin permission
+chmod   = permission change   ex. chmod 777 file.txt
+chown   = owner change        ex. chown user:user file.txt
+less    = Large logs read     ex. less /var/log/syslog
+tail    = view the last line  ex. tail auth.log
+tail -f = monitor live logs   ex. tail -f /var/log/auth.log
+head    = view the first line ex. head auth.log
+find    = search the file     ex. find / -name test.txt
+locate  = Quick file search   ex. locate apache2
+ping    = connection check    ex. ping google.com
+ifconfig= find ip address
+ip a    = Modern network info command.
+netstat = Open ports/connections. ex. netstat -tulnp
+ss      = Netstat alternative.    ex. ss -tulnp
+curl    = HTTP request test.      ex. curl example.com
+wget    = download the files      ex. wget filelink
+ps      = view the running process ex. ps aux
+top     = live system monitoring
+htop    = Better monitoring tool
+kill    = stop the proces          ex. kill PID
 
+
+SOC Specific Important Commands
+
+Failed login attempts  = grep "Failed password" /var/log/auth.log
+Suspicious IP search   = grep "192.168.1.10" access.log
+Open ports check       = ss -tulnp
+Running services       = systemctl list-units --type=service
+Active users           = who

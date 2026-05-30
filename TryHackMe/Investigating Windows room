@@ -1,1 +1,35 @@
 
+
+## Overview
+This room focuses on Windows forensic investigation techniques including event logs, scheduled tasks, processes, and network activity to identify malicious behavior.
+
+## Key Learning Areas
+- Windows Event Logs analysis
+- User logon tracking
+- Scheduled Tasks investigation
+- Persistence mechanisms
+- Process & service analysis
+- Network connections monitoring
+
+## Windows Event Logs Location
+Windows event logs are stored in:
+
+C:\Windows\System32\winevt\Logs\
+
+## Important Event IDs
+
+| Event ID | Description |
+|----------|-------------|
+| 4624 | Successful logon |
+| 4625 | Failed logon |
+| 4634 | Logoff |
+| 4672 | Special privileges assigned |
+| 4688 | New process created |
+| 4698 | Scheduled task created |
+| 4719 | Audit policy changed |
+
+## User Investigation
+
+Check user accounts:
+```powershell
+net user

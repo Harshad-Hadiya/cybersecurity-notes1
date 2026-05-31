@@ -88,3 +88,5 @@ Server misconfiguration/crash
 503 Service Unavailable
 Server overloaded
 
+502 Bad Gateway
+

@@ -6,7 +6,7 @@ Two types of ports
 
 | Protocol | Port  | Purpose                                 |
 | -------- | ----- | --------------------------------------- |
-| HTTP     | 80    | Unencrypted web traffic                 |..>Hyper text transfer protocol
+| HTTP     | 80    | Unencrypted web traffic                 |     ..>Hyper text transfer protocol
 | HTTPS    | 443   | Encrypted web traffic (SSL/TLS)         |Hyper text transfer protocol secure
 | FTP      | 21    | File transfer (unencrypted)             |File transfer protocol
 | SFTP     | 22    | Secure file transfer (SSH)              |Secure file transfer protocol

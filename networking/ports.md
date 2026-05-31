@@ -85,8 +85,10 @@ Resource doesn't exist
 500 Internal Server Error
 Server misconfiguration/crash
 
+502 Bad Gateway
+
 503 Service Unavailable
 Server overloaded
 
-502 Bad Gateway
+
 

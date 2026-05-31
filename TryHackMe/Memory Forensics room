@@ -1,1 +1,547 @@
+# Memory Forensics - TryHackMe Notes
+
+## Introduction to Memory Forensics
+
+Memory Forensics is the process of analyzing a computer’s RAM (Random Access Memory) to investigate malicious activities, running processes, network connections, passwords, malware, and other evidence that may not exist on the disk.
+
+RAM contains:
+
+* Running processes
+* Active network connections
+* Logged-in users
+* Encryption keys
+* Clipboard data
+* Command history
+* Malware running in memory
+
+Memory forensics is important because attackers often use fileless malware and in-memory attacks.
+
+# Common Memory File Extensions
+
+| Extension | Description        |
+| --------- | ------------------ |
+| .mem      | Raw memory dump    |
+| .raw      | Raw memory image   |
+| .dmp      | Memory dump        |
+| .img      | Memory image       |
+| .bin      | Binary memory file |
+
+---
+
+# Popular Memory Forensics Tools
+
+## Volatility
+
+Most popular memory forensics framework.
+
+### Features
+
+* Analyze processes
+* Detect malware
+* View network connections
+* Extract files
+* Dump passwords and hashes
+
+### Versions
+
+* Volatility 2
+* Volatility 3
+
+# Basic Volatility Syntax
+
+## Volatility 2
+
+```bash
+volatility -f memory.img imageinfo
+```
+
+## Volatility 3
+
+```bash
+vol.py -f memory.img windows.info
+```
+
+---
+
+# Determine Profile
+
+## Volatility 2
+
+```bash
+volatility -f memory.img imageinfo
+```
+
+Purpose:
+
+* Identifies OS version
+* Suggests profile
+
+Example Output:
+
+```bash
+Suggested Profile(s) : Win7SP1x64
+```
+
+---
+
+# Process Analysis
+
+## List Running Processes
+
+### Volatility 2
+
+```bash
+volatility -f memory.img --profile=Win7SP1x64 pslist
+```
+
+### Volatility 3
+
+```bash
+vol.py -f memory.img windows.pslist
+```
+
+Purpose:
+
+* Displays active processes
+
+Important Columns:
+
+* PID
+* PPID
+* Process Name
+* Threads
+* Handles
+
+---
+
+# Detect Hidden Processes
+
+## psscan
+
+```bash
+volatility -f memory.img --profile=Win7SP1x64 psscan
+```
+
+Purpose:
+
+* Finds hidden or terminated processes
+
+Difference:
+
+* pslist → Active linked processes
+* psscan → Scans entire memory
+
+---
+
+# Process Tree
+
+## pstree
+
+```bash
+volatility -f memory.img --profile=Win7SP1x64 pstree
+```
+
+Purpose:
+
+* Shows parent-child process relationship
+
+Useful for:
+
+* Detecting malicious child processes
+
+Example:
+
+```text
+explorer.exe
+ └── cmd.exe
+      └── powershell.exe
+```
+
+---
+
+# Command Line History
+
+## cmdline
+
+```bash
+volatility -f memory.img --profile=Win7SP1x64 cmdline
+```
+
+Purpose:
+
+* Displays command-line arguments
+
+Useful for:
+
+* Detecting attacker commands
+
+---
+
+# DLL Analysis
+
+## dlllist
+
+```bash
+volatility -f memory.img --profile=Win7SP1x64 dlllist
+```
+
+Purpose:
+
+* Lists loaded DLL files
+
+Useful for:
+
+* Detecting malicious DLL injection
+
+---
+
+# Network Analysis
+
+## netscan
+
+```bash
+volatility -f memory.img --profile=Win7SP1x64 netscan
+```
+
+Purpose:
+
+* Shows active and closed network connections
+
+Important Information:
+
+* Local IP
+* Remote IP
+* Port numbers
+* Process ID
+
+Useful for:
+
+* Finding C2 communication
+
+---
+
+# Registry Analysis
+
+## hivelist
+
+```bash
+volatility -f memory.img --profile=Win7SP1x64 hivelist
+```
+
+Purpose:
+
+* Lists registry hives
+
+Examples:
+
+* SAM
+* SYSTEM
+* SOFTWARE
+* NTUSER.DAT
+
+---
+
+# User Accounts
+
+## getsids
+
+```bash
+volatility -f memory.img --profile=Win7SP1x64 getsids
+```
+
+Purpose:
+
+* Displays user SIDs
+
+Useful for:
+
+* Identifying user accounts
+
+---
+
+# Password Hash Dumping
+
+## hashdump
+
+```bash
+volatility -f memory.img --profile=Win7SP1x64 hashdump
+```
+
+Purpose:
+
+* Dumps Windows password hashes
+
+Note:
+
+* Requires SYSTEM and SAM hives
+
+---
+
+# Malware Detection
+
+## malfind
+
+```bash
+volatility -f memory.img --profile=Win7SP1x64 malfind
+```
+
+Purpose:
+
+* Detects injected code or malicious memory regions
+
+Signs of Malware:
+
+* PAGE_EXECUTE_READWRITE
+* Suspicious memory sections
+
+---
+
+# Extract Files from Memory
+
+## dumpfiles
+
+```bash
+volatility -f memory.img --profile=Win7SP1x64 dumpfiles -D output/
+```
+
+Purpose:
+
+* Extracts files from RAM
+
+---
+
+# Dump Process Memory
+
+## procdump
+
+```bash
+volatility -f memory.img --profile=Win7SP1x64 procdump -p PID -D output/
+```
+
+Purpose:
+
+* Dumps executable process memory
+
+Example:
+
+```bash
+volatility -f memory.img --profile=Win7SP1x64 procdump -p 1234 -D output/
+```
+
+---
+
+# Browser Investigation
+
+Possible Information Found:
+
+* Browser history
+* Cookies
+* Sessions
+* Credentials
+
+Useful Plugins:
+
+```bash
+iehistory
+chromehistory
+firefoxhistory
+```
+
+---
+
+# Check Logged-in Users
+
+## sessions
+
+```bash
+volatility -f memory.img --profile=Win7SP1x64 sessions
+```
+
+Purpose:
+
+* Displays user sessions
+
+---
+
+# Environment Variables
+
+## envars
+
+```bash
+volatility -f memory.img --profile=Win7SP1x64 envars
+```
+
+Purpose:
+
+* Shows environment variables
+
+Useful Information:
+
+* Username
+* Temp paths
+* User profile paths
+
+---
+
+# File Scanning
+
+## filescan
+
+```bash
+volatility -f memory.img --profile=Win7SP1x64 filescan
+```
+
+Purpose:
+
+* Scans memory for file objects
+
+---
+
+# YARA Scanning
+
+## yarascan
+
+```bash
+volatility -f memory.img --profile=Win7SP1x64 yarascan -Y "malware"
+```
+
+Purpose:
+
+* Searches memory using YARA rules
+
+Useful for:
+
+* Malware hunting
+
+---
+
+# Linux Memory Analysis
+
+## Linux Process List
+
+```bash
+vol.py -f memory.img linux.pslist
+```
+
+## Linux Network Scan
+
+```bash
+vol.py -f memory.img linux.netstat
+```
+
+---
+
+# Important Investigation Workflow
+
+## Step 1: Identify Profile
+
+```bash
+imageinfo
+```
+
+## Step 2: Check Running Processes
+
+```bash
+pslist
+pstree
+psscan
+```
+
+## Step 3: Check Network Connections
+
+```bash
+netscan
+```
+
+## Step 4: Check Command History
+
+```bash
+cmdline
+```
+
+## Step 5: Search for Malware
+
+```bash
+malfind
+dlllist
+yarascan
+```
+
+## Step 6: Dump Suspicious Processes
+
+```bash
+procdump
+dumpfiles
+```
+
+---
+
+# Indicators of Compromise (IOC)
+
+Common suspicious indicators:
+
+* Unknown processes
+* PowerShell execution
+* Suspicious network connections
+* Injected DLLs
+* Hidden processes
+* Base64 encoded commands
+* Connections to external IPs
+
+---
+
+# Common Windows Processes
+
+| Process      | Description             |
+| ------------ | ----------------------- |
+| System       | Windows kernel process  |
+| smss.exe     | Session Manager         |
+| csrss.exe    | Client Server Runtime   |
+| wininit.exe  | Windows initialization  |
+| services.exe | Service Control Manager |
+| lsass.exe    | Security Authority      |
+| explorer.exe | Windows Explorer        |
+| svchost.exe  | Service Host            |
+
+---
+
+# Useful Investigation Tips
+
+* Always verify suspicious parent-child process relationships
+* Check unusual PowerShell activity
+* Investigate unknown network connections
+* Compare pslist and psscan results
+* Dump suspicious processes for malware analysis
+* Use VirusTotal on dumped files
+* Analyze persistence mechanisms
+
+# Example Investigation Flow
+
+```bash
+volatility -f memory.img imageinfo
+
+volatility -f memory.img --profile=Win7SP1x64 pslist
+
+volatility -f memory.img --profile=Win7SP1x64 pstree
+
+volatility -f memory.img --profile=Win7SP1x64 netscan
+
+volatility -f memory.img --profile=Win7SP1x64 cmdline
+
+volatility -f memory.img --profile=Win7SP1x64 malfind
+
+volatility -f memory.img --profile=Win7SP1x64 procdump -p 1234 -D output/
+
+# Key Points to Remember
+
+* RAM contains volatile evidence
+* Memory analysis helps detect fileless malware
+* Volatility is the most commonly used tool
+* pslist + psscan comparison is important
+* netscan helps identify attacker communication
+* malfind is useful for injected malware
+* procdump extracts suspicious executables
+
+# Conclusion
+Memory Forensics is an essential skill in cybersecurity and incident response. It helps investigators analyze live memory to identify malicious activities, attacker behavior, malware, and system compromise evidence that may not exist on disk.
 

@@ -1,1 +1,210 @@
+HR / Personal Questions
+Tell me about yourself.
+Why do you want to work in cybersecurity?
+Why do you want to become a SOC Analyst?
+Why should we hire you?
+What are your strengths?
+What are your weaknesses?
+Where do you see yourself in 5 years?
+Why do you want to join our company?
+What do you know about our company?
+Are you willing to work in shifts (24x7 SOC)?
+Are you comfortable with night shifts?
+What motivates you?
+Tell me about a challenge you faced and how you solved it.
+Tell me about a failure and what you learned.
+What are your salary expectations?
+Why are you leaving your current job? (if experienced)
+How do you handle stress?
+What cybersecurity certifications do you have?
+What cybersecurity projects have you done?
+Why should we choose you over other candidates?
+Networking Questions
+What is an IP address?
+Difference between IPv4 and IPv6?
+What is DNS?
+What is DHCP?
+What is NAT?
+What is a MAC address?
+What is ARP?
+What is a subnet mask?
+What is a default gateway?
+Difference between TCP and UDP?
+What is a three-way handshake?
+Common ports (20,21,22,23,25,53,80,110,143,443,3389)?
+What is HTTP vs HTTPS?
+What is SSL/TLS?
+What is VPN?
+What is a firewall?
+What is a proxy server?
+What is packet sniffing?
+What is a load balancer?
+What is OSI Model?
+Linux Questions
+pwd
+ls
+cd
+cat
+grep
+chmod
+chown
+find
+ps
+top
+netstat
+ss
+kill
+systemctl
+journalctl
+tail
+head
+awk
+sed
+Difference between root and normal user?
+Windows Questions
+What is Active Directory?
+What is Group Policy?
+What is Event Viewer?
+What are Windows Event IDs?
+What is Task Manager?
+What is Registry?
+What is UAC?
+What is PowerShell?
+What is RDP?
+Difference between local and domain users?
+Cybersecurity Fundamentals
+What is CIA Triad?
+What is Confidentiality?
+What is Integrity?
+What is Availability?
+What is Risk?
+What is Vulnerability?
+What is Threat?
+What is Exploit?
+What is Attack Surface?
+What is Security Control?
+SOC Specific Questions
+What is SOC?
+What is SIEM?
+What is Log Analysis?
+What is Correlation?
+What is a False Positive?
+What is a True Positive?
+What is a False Negative?
+What is a Security Incident?
+What is Event vs Incident?
+What is Incident Response?
+SIEM Questions
+What is a SIEM tool?
+How does SIEM work?
+What logs are collected in SIEM?
+What is log normalization?
+What is use case creation?
+What is alert tuning?
+Have you used Splunk?
+Have you used QRadar?
+What is dashboard monitoring?
+What is threat hunting?
+Log Analysis Questions
+What are Windows Security Logs?
+What are Application Logs?
+What are System Logs?
+What is Syslog?
+What is Event ID 4624?
+What is Event ID 4625?
+What is Event ID 4688?
+What is Event ID 4720?
+How do you investigate failed logins?
+How do you detect brute force attacks?
+Incident Response Questions
+Incident Response lifecycle?
+What will you do if malware is detected?
+What will you do if ransomware is detected?
+What will you do if a phishing email is reported?
+What will you do if a user's account is compromised?
+How would you escalate an incident?
+What is containment?
+What is eradication?
+What is recovery?
+What is post-incident review?
+Threats & Attacks
+What is phishing?
+What is spear phishing?
+What is whaling?
+What is malware?
+What is ransomware?
+What is trojan?
+What is worm?
+What is spyware?
+What is rootkit?
+What is keylogger?
+What is brute force attack?
+What is DDoS attack?
+What is SQL Injection?
+What is XSS?
+What is CSRF?
+What is MITM?
+What is privilege escalation?
+What is zero-day vulnerability?
+What is credential stuffing?
+What is password spraying?
+Email Security
+What is SPF?
+What is DKIM?
+What is DMARC?
+How do you identify a phishing email?
+What are email headers?
+Vulnerability Management
+What is vulnerability assessment?
+What is penetration testing?
+Difference between VA and PT?
+What is CVE?
+What is CVSS?
+Scenario-Based Questions
+User reports suspicious email. What do you do?
+Multiple failed logins detected. What do you do?
+Malware alert on endpoint. What do you do?
+Unusual outbound traffic detected. What do you do?
+User clicked phishing link. What do you do?
+Admin account compromised. What do you do?
+Ransomware detected on server. What do you do?
+Unauthorized USB detected. What do you do?
+Sensitive file leaked. What do you do?
+SIEM generated high-severity alert. What do you do?
+Freshers Projects Questions
+Explain your TryHackMe rooms.
+Explain your home lab.
+Explain a phishing analysis project.
+Explain a log analysis project.
+Explain a SOC investigation you performed.
+What did you learn from TryHackMe?
+Explain a security incident you analyzed.
+Which tools have you used?
+Explain your GitHub projects.
+Explain your certifications.
+Final Questions
+Do you have any questions for us?
+Why should we hire you?
+What makes you a good SOC Analyst?
+What will you do in your first 90 days?
+What are your career goals?
 
+
+
+## Most important
+
+Tell me about yourself
+Why SOC Analyst?
+What is SOC?
+What is SIEM?
+What is Log Analysis?
+Difference between TCP and UDP
+What is DNS?
+What is Firewall?
+What is Phishing?
+What is Malware?
+What is CIA Triad?
+What is Incident Response?
+Event vs Incident
+False Positive vs True Positive
+User clicked phishing email, what will you do?

@@ -1,1 +1,47 @@
+| Short Form  | Full Form                                           |
+| ----------- | --------------------------------------------------- |
+| SOC         | Security Operations Center                          |
+| CIA         | Confidentiality, Integrity, Availability            |
+| PII         | Personally Identifiable Information                 |
+| EDR         | Endpoint Detection and Response                     |
+| SPL         | Search Processing Language                          |
+| SIEM        | Security Information and Event Management           |
+| IDS         | Intrusion Detection System                          |
+| IPS         | Intrusion Prevention System                         |
+| DNS         | Domain Name System                                  |
+| TCP         | Transmission Control Protocol                       |
+| UDP         | User Datagram Protocol                              |
+| OSI         | Open Systems Interconnection                        |
+| AAA         | Authentication, Authorization, Accounting           |
+| APT         | Advanced Persistent Threat                          |
+| PPT         | People, Process, Technology                         |
+| MTTD        | Mean Time To Detect                                 |
+| HTTP        | HyperText Transfer Protocol                         |
+| HTTPS       | HyperText Transfer Protocol Secure                  |
+| FTP         | File Transfer Protocol                              |
+| SSH         | Secure Shell                                        |
+| SMTP        | Simple Mail Transfer Protocol                       |
+| RDP         | Remote Desktop Protocol                             |
+| XSS         | Cross-Site Scripting                                |
+| DOS         | Denial of Service                                   |
+| DDOS / DDoS | Distributed Denial of Service                       |
+| AD          | Active Directory                                    |
+| MFA         | Multi-Factor Authentication                         |
+| IOC         | Indicator of Compromise                             |
+| VPN         | Virtual Private Network                             |
+| ICMP        | Internet Control Message Protocol                   |
+| ARP         | Address Resolution Protocol                         |
+| IP          | Internet Protocol                                   |
+| URL         | Uniform Resource Locator                            |
+| MAC         | Media Access Control                                |
+| API         | Application Programming Interface                   |
+| WAF         | Web Application Firewall                            |
+| GDPR        | General Data Protection Regulation                  |
+| HIPAA       | Health Insurance Portability and Accountability Act |
+| PCI-DSS     | Payment Card Industry Data Security Standard        |
+| ISO         | International Organization for Standardization      |
+| CEH         | Certified Ethical Hacker                            |
+| SOC L1      | Security Operations Center Analyst Level 1          |
+| SOC L2      | Security Operations Center Analyst Level 2          |
+| SOC L3      | Security Operations Center Analyst Level 3          |
 

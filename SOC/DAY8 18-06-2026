@@ -2,3 +2,9 @@ WHAT IS LOG??
 TYPES OF LOGS?
 WHAT IS 5W?
 WIRESHARK DOWNLOAD
+BASIC PRACTICE WITH WIRESHARK
+1. connect the wifi
+2.start the wireshark and go to wifi
+3.login to any website
+4.filter in wireshark http or https
+5.creditional show in wireshark.
